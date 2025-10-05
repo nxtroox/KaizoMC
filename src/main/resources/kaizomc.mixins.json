@@ -2,7 +2,9 @@
 	"required": true,
 	"package": "page.codeberg.niitroo.kaizomc.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [],
+	"mixins": [
+        "EnderEyeNoDropMixin"
+    ],
 	"injectors": {
 		"defaultRequire": 1
 	},
