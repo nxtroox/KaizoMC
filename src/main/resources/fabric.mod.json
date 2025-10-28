@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://niitroo.codeberg.page/",
-		"sources": "https://codeberg.org/Niitroo/kaizomc"
+		"sources": "https://codeberg.org/Niitroo/kaizomc",
+        "issues": "https://codeberg.org/Niitroo/kaizomc/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/kaizomc/icon.png",
