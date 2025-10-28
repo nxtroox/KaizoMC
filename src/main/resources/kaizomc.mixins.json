@@ -7,6 +7,7 @@
         "CreeperInstantExplosionMixin",
         "EnderEyeNoDropMixin",
         "EndermanNoWaterDamageMixin",
+        "InstantWardenSpawnMixin",
         "MobNoBurnMixin"
     ],
 	"injectors": {
