@@ -8,6 +8,7 @@
         "EnderEyeNoDropMixin",
         "EndermanNoWaterDamageMixin",
         "InstantWardenSpawnMixin",
+        "MobDoubleLifeMixin",
         "MobNoBurnMixin"
     ],
 	"injectors": {
