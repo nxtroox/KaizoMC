@@ -1,17 +1,17 @@
 package page.codeberg.niitroo.kaizomc.mixin;
 
-import net.minecraft.entity.mob.EndermanEntity;
+import net.minecraft.entity.mob.MobEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
-@Mixin(EndermanEntity.class)
-public class EndermanNoWaterDamageMixin {
+@Mixin(MobEntity.class)
+public class MobEntityMixin {
     /**
      * @author Niitroo
-     * @reason Make Endermen immune to water damage
+     * @reason Make mobs not burn during the daytime
      */
     @Overwrite
-    public boolean hurtByWater() {
+    public boolean isAffectedByDaylight() {
         return false;
     }
 }

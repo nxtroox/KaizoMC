@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(CreeperEntity.class)
-public class CreeperInstantExplosionMixin {
+public class CreeperEntityMixin {
     @Shadow
     private int fuseTime = 1;
 

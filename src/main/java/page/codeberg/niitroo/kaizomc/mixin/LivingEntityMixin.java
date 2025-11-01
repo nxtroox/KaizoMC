@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(LivingEntity.class)
-public abstract class MobDoubleLifeMixin {
+public abstract class LivingEntityMixin {
     @Unique
     private static final String MODIFIER_NAME = "kaizomc:double_health";
 

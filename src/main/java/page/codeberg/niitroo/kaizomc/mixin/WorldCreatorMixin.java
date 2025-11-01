@@ -7,13 +7,13 @@ import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(WorldCreator.class)
-public class CreateWorldScreenHardDifficultyMixin {
+public class WorldCreatorMixin {
     @Shadow
     private Difficulty difficulty = Difficulty.HARD;
 
     /**
      * @author Niitroo
-     * @reason Force hard difficulty on world creation
+     * @reason Force Hard difficulty on world creation
      */
     @Overwrite
     public void setDifficulty(Difficulty difficulty) {

@@ -3,14 +3,14 @@
 	"package": "page.codeberg.niitroo.kaizomc.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-        "BlazeNoWaterDamageMixin",
-        "CreateWorldScreenHardDifficultyMixin",
-        "CreeperInstantExplosionMixin",
-        "EnderEyeNoDropMixin",
-        "EndermanNoWaterDamageMixin",
-        "InstantWardenSpawnMixin",
-        "MobDoubleLifeMixin",
-        "MobNoBurnMixin"
+        "BlazeEntityMixin",
+        "WorldCreatorMixin",
+        "CreeperEntityMixin",
+        "EyeOfEnderEntityMixin",
+        "EndermanEntityMixin",
+        "SculkShriekerWarningManagerMixin",
+        "LivingEntityMixin",
+        "MobEntityMixin"
     ],
 	"injectors": {
 		"defaultRequire": 1

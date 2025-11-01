@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(SculkShriekerWarningManager.class)
-public class InstantWardenSpawnMixin {
+public class SculkShriekerWarningManagerMixin {
     @Shadow
     private int ticksSinceLastWarning;
 
@@ -18,7 +18,7 @@ public class InstantWardenSpawnMixin {
 
     /**
      * @author Niitroo
-     * @reason Make warden spawn instantly and reduce reset countdown
+     * @reason Make Warden spawn instantly and reduce reset countdown
      */
     @Overwrite
     public void reset() {

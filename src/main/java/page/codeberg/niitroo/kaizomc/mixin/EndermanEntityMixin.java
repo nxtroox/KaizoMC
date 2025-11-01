@@ -1,14 +1,14 @@
 package page.codeberg.niitroo.kaizomc.mixin;
 
-import net.minecraft.entity.mob.BlazeEntity;
+import net.minecraft.entity.mob.EndermanEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
-@Mixin(BlazeEntity.class)
-public class BlazeNoWaterDamageMixin {
+@Mixin(EndermanEntity.class)
+public class EndermanEntityMixin {
     /**
      * @author Niitroo
-     * @reason Make Blazes immune to water damage
+     * @reason Make Endermen immune to water damage
      */
     @Overwrite
     public boolean hurtByWater() {

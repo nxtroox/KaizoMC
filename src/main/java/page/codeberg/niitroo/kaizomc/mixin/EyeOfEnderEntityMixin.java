@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(EyeOfEnderEntity.class)
-public class EnderEyeNoDropMixin {
+public class EyeOfEnderEntityMixin {
     @Shadow
     private boolean dropsItem;
 
