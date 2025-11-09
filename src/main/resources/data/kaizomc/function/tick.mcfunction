@@ -1,0 +1,1 @@
+execute as @a at @s run execute as @e[type=#kaizomc:neutral,distance=..32] at @s run data modify entity @s AngryAt set from entity @p UUID
