@@ -1,0 +1,5 @@
+gamerule doLimitedCrafting true
+gamerule locatorBar false
+gamerule naturalRegeneration false
+gamerule playersSleepingPercentage 101
+gamerule waterSourceConversion false
