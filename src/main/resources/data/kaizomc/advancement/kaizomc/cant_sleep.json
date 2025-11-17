@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:black_bed"
+        },
+        "title": {
+            "translate": "advancements.kaizomc.cant_sleep.title"
+        },
+        "description": {
+            "translate": "advancements.kaizomc.cant_sleep.description"
+        },
+        "hidden": true
+    },
+    "parent": "kaizomc:kaizomc/sleep",
+    "criteria": {
+        "tried_to_sleep": {
+            "trigger": "minecraft:slept_in_bed"
+        }
+    }
+}
