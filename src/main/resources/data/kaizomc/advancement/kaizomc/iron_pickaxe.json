@@ -8,8 +8,7 @@
         },
         "description": {
             "translate": "advancements.kaizomc.iron_pickaxe.description"
-        },
-        "frame": "task"
+        }
     },
     "parent": "kaizomc:kaizomc/copper_pickaxe",
     "criteria": {

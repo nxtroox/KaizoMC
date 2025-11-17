@@ -8,8 +8,7 @@
         },
         "description": {
             "translate": "advancements.kaizomc.stone_pickaxe.description"
-        },
-        "frame": "task"
+        }
     },
     "parent": "kaizomc:kaizomc/wooden_pickaxe",
     "criteria": {

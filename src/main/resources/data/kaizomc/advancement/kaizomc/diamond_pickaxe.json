@@ -8,8 +8,7 @@
         },
         "description": {
             "translate": "advancements.kaizomc.diamond_pickaxe.description"
-        },
-        "frame": "task"
+        }
     },
     "parent": "kaizomc:kaizomc/golden_pickaxe",
     "criteria": {

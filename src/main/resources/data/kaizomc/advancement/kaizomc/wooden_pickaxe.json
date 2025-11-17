@@ -8,8 +8,7 @@
         },
         "description": {
             "translate": "advancements.kaizomc.wooden_pickaxe.description"
-        },
-        "frame": "task"
+        }
     },
     "parent": "kaizomc:kaizomc/root",
     "criteria": {

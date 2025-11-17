@@ -8,8 +8,7 @@
         },
         "description": {
             "translate": "advancements.kaizomc.copper_pickaxe.description"
-        },
-        "frame": "task"
+        }
     },
     "parent": "kaizomc:kaizomc/stone_pickaxe",
     "criteria": {
