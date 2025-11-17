@@ -1,5 +1,19 @@
 {
-    "advancements.kaizo.root.description": "Minecraft kann schwierig sein?!",
+    "advancements.kaizomc.copper_pickaxe.title": "Das ist cool, aber warum sollte ich das brauchen?",
+    "advancements.kaizomc.copper_pickaxe.description": "Stelle eine Kupferspitzhacke her",
+    "advancements.kaizomc.diamond_pickaxe.title": "Nun reden wir...",
+    "advancements.kaizomc.diamond_pickaxe.description": "Stelle eine Diamantspitzhacke her",
+    "advancements.kaizomc.golden_pickaxe.title": "Das ist nutzlos...",
+    "advancements.kaizomc.golden_pickaxe.description": "Stelle eine Goldspitzhacke her",
+    "advancements.kaizomc.iron_pickaxe.title": "Lass uns Diamanten suchen!",
+    "advancements.kaizomc.iron_pickaxe.description": "Stelle eine Eisenspitzhacke her",
+    "advancements.kaizomc.netherite_pickaxe.title": "ENDLICH!",
+    "advancements.kaizomc.netherite_pickaxe.description": "Stelle eine Netheritspitzhacke her",
+    "advancements.kaizomc.root.description": "Minecraft kann schwierig sein?!",
+    "advancements.kaizomc.stone_pickaxe.title": "Pfennigfuchser",
+    "advancements.kaizomc.stone_pickaxe.description": "Stelle eine Steinspitzhacke her",
+    "advancements.kaizomc.wooden_pickaxe.title": "Meine erste Spitzhacke!",
+    "advancements.kaizomc.wooden_pickaxe.description": "Stelle eine Holzspitzhacke her",
     "options.difficulty.hard": "Kaizo",
     "options.difficulty.hard.info": "Das ist Kaizo, dachtest du, du könntest das ändern?"
 }

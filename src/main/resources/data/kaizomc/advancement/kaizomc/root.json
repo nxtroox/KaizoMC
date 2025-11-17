@@ -5,7 +5,7 @@
         },
         "title": "KaizoMC",
         "description": {
-            "translate": "advancements.kaizo.root.description"
+            "translate": "advancements.kaizomc.root.description"
         },
         "background": "minecraft:block/pale_oak_log",
         "frame": "task",

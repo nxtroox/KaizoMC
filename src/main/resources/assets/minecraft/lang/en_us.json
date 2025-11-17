@@ -1,5 +1,19 @@
 {
-    "advancements.kaizo.root.description": "Minecraft can be difficult?!",
+    "advancements.kaizomc.copper_pickaxe.title": "This is cool, but why would I need this?",
+    "advancements.kaizomc.copper_pickaxe.description" : "Craft a copper pickaxe",
+    "advancements.kaizomc.diamond_pickaxe.title": "Now we're talking...",
+    "advancements.kaizomc.diamond_pickaxe.description" : "Craft a diamond pickaxe",
+    "advancements.kaizomc.golden_pickaxe.title": "This is useless...",
+    "advancements.kaizomc.golden_pickaxe.description" : "Craft a golden pickaxe",
+    "advancements.kaizomc.iron_pickaxe.title": "Let's search some diamonds!",
+    "advancements.kaizomc.iron_pickaxe.description" : "Craft an iron pickaxe",
+    "advancements.kaizomc.netherite_pickaxe.title": "FINALLY!",
+    "advancements.kaizomc.netherite_pickaxe.description" : "Craft a netherite pickaxe",
+    "advancements.kaizomc.root.description": "Minecraft can be difficult?!",
+    "advancements.kaizomc.stone_pickaxe.title": "Penny pincher",
+    "advancements.kaizomc.stone_pickaxe.description": "Craft a stone pickaxe",
+    "advancements.kaizomc.wooden_pickaxe.title": "My first pickaxe!",
+    "advancements.kaizomc.wooden_pickaxe.description":  "Craft a wooden pickaxe",
     "options.difficulty.hard": "Kaizo",
     "options.difficulty.hard.info": "This is Kaizo, did you think you could change that?"
 }

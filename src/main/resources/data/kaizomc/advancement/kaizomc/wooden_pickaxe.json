@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wooden_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.kaizomc.wooden_pickaxe.title"
+        },
+        "description": {
+            "translate": "advancements.kaizomc.wooden_pickaxe.description"
+        },
+        "frame": "task"
+    },
+    "parent": "kaizomc:kaizomc/root",
+    "criteria": {
+        "has_wooden_pickaxe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:wooden_pickaxe"
+            }
+        }
+    }
+}
