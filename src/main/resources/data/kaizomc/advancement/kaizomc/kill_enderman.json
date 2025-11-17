@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "MHF_Enderman"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.kaizomc.kill_enderman.title"
+        },
+        "description": {
+            "translate": "advancements.kaizomc.kill_enderman.description"
+        }
+    },
+    "parent": "kaizomc:kaizomc/kill_creeper",
+    "criteria": {
+        "kill_creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    }
+}
