@@ -1,4 +1,6 @@
 {
+    "advancements.kaizomc.cant_sleep.title": "Albtraum",
+    "advancements.kaizomc.cant_sleep.description": "Du kannst wohl nicht schlafen...",
     "advancements.kaizomc.copper_pickaxe.title": "Das ist cool, aber warum sollte ich das brauchen?",
     "advancements.kaizomc.copper_pickaxe.description": "Stelle eine Kupferspitzhacke her",
     "advancements.kaizomc.diamond_pickaxe.title": "Nun reden wir...",
@@ -10,6 +12,8 @@
     "advancements.kaizomc.netherite_pickaxe.title": "ENDLICH!",
     "advancements.kaizomc.netherite_pickaxe.description": "Erhalte eine Netheritspitzhacke",
     "advancements.kaizomc.root.description": "Minecraft kann schwierig sein?!",
+    "advancements.kaizomc.sleep.title": "Gute Nacht",
+    "advancements.kaizomc.sleep.description": "Schlafe in einem Bett",
     "advancements.kaizomc.stone_pickaxe.title": "Pfennigfuchser",
     "advancements.kaizomc.stone_pickaxe.description": "Stelle eine Steinspitzhacke her",
     "advancements.kaizomc.wooden_pickaxe.title": "Meine erste Spitzhacke!",
