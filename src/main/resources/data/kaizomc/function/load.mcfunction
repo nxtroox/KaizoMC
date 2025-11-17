@@ -3,3 +3,6 @@ gamerule locatorBar false
 gamerule naturalRegeneration false
 gamerule playersSleepingPercentage 101
 gamerule waterSourceConversion false
+
+scoreboard objectives add death deathCount
+scoreboard objectives setdisplay list death
