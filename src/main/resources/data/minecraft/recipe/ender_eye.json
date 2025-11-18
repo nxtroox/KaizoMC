@@ -1,15 +1,15 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    "minecraft:prismarine_shard",
-    "minecraft:blaze_powder",
-    "minecraft:ender_pearl",
-    "minecraft:wind_charge",
-    "minecraft:echo_shard"
-  ],
-  "result": {
-    "id": "minecraft:ender_eye",
-    "count": 1
-  }
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:ender_pearl",
+        "minecraft:blaze_powder",
+        "minecraft:prismarine_shard",
+        "minecraft:wind_charge",
+        "minecraft:echo_shard"
+    ],
+    "result": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+    }
 }
