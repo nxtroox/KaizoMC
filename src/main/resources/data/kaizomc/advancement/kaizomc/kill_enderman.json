@@ -17,7 +17,7 @@
     },
     "parent": "kaizomc:kaizomc/kill_creeper",
     "criteria": {
-        "kill_creeper": {
+        "kill_enderman": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
