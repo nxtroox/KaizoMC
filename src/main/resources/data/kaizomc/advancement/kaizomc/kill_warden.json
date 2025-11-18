@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "MHF_Warden"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.kaizomc.kill_warden.title"
+        },
+        "description": {
+            "translate": "advancements.kaizomc.kill_warden.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "kaizomc:kaizomc/kill_ender_dragon",
+    "criteria": {
+        "kill_warden": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"
+                }
+            }
+        }
+    }
+}

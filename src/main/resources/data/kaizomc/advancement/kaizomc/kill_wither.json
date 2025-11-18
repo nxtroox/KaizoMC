@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "Nelson540"
+                }
+            }
+        },
+        "title": {
+            "translate": "advancements.kaizomc.kill_wither.title"
+        },
+        "description": {
+            "translate": "advancements.kaizomc.kill_wither.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "kaizomc:kaizomc/kill_elder_guardian",
+    "criteria": {
+        "kill_wither": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
+        }
+    }
+}
