@@ -12,7 +12,7 @@
     },
     "parent": "kaizomc:kaizomc/iron_pickaxe",
     "criteria": {
-        "has_golden_pickaxe": {
+        "craft_golden_pickaxe": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
                 "recipe_id": "minecraft:golden_pickaxe"

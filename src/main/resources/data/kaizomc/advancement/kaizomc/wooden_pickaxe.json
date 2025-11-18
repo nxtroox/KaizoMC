@@ -12,7 +12,7 @@
     },
     "parent": "kaizomc:kaizomc/root",
     "criteria": {
-        "has_wooden_pickaxe": {
+        "craft_wooden_pickaxe": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
                 "recipe_id": "minecraft:wooden_pickaxe"

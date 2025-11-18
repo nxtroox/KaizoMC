@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "title": {
+            "translate": "advancements.kaizomc.prismarine_shard.title"
+        },
+        "description": {
+            "translate": "advancements.kaizomc.prismarine_shard.description"
+        }
+    },
+    "parent": "kaizomc:kaizomc/blaze_powder",
+    "criteria": {
+        "has_prismarine_shard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:prismarine_shard"
+                    }
+                ]
+            }
+        }
+    }
+}

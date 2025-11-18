@@ -12,7 +12,7 @@
     },
     "parent": "kaizomc:kaizomc/wooden_pickaxe",
     "criteria": {
-        "has_stone_pickaxe": {
+        "craft_stone_pickaxe": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
                 "recipe_id": "minecraft:stone_pickaxe"

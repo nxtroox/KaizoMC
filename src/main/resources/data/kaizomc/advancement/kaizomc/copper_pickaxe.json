@@ -12,7 +12,7 @@
     },
     "parent": "kaizomc:kaizomc/stone_pickaxe",
     "criteria": {
-        "has_copper_pickaxe": {
+        "craft_copper_pickaxe": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
                 "recipe_id": "minecraft:copper_pickaxe"

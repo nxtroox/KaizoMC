@@ -12,7 +12,7 @@
     },
     "parent": "kaizomc:kaizomc/golden_pickaxe",
     "criteria": {
-        "has_diamond_pickaxe": {
+        "craft_diamond_pickaxe": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
                 "recipe_id": "minecraft:diamond_pickaxe"
