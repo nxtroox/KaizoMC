@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ominous_bottle"
+        },
+        "title": {
+            "translate": "advancements.kaizomc.complete_raid.title"
+        },
+        "description": {
+            "translate": "advancements.kaizomc.complete_raid.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "kaizomc:kaizomc/find_village",
+    "criteria": {
+        "hero_of_the_village": {
+            "trigger": "minecraft:hero_of_the_village"
+        }
+    }
+}
