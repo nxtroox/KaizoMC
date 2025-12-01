@@ -1,2 +1,2 @@
-data modify entity @s[type=minecraft:iron_golem] Health set value 200f
 data modify entity @s AngryAt set from entity @p UUID
+execute as @s[type=minecraft:iron_golem,tag=!hp_set] run function kaizomc:init_golem
