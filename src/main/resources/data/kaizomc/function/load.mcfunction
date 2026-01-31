@@ -1,8 +1,8 @@
-gamerule doLimitedCrafting true
-gamerule locatorBar false
-gamerule naturalRegeneration false
-gamerule playersSleepingPercentage 101
-gamerule waterSourceConversion false
+gamerule limited_crafting true
+gamerule locator_bar false
+gamerule natural_health_regeneration false
+gamerule players_sleeping_percentage 101
+gamerule water_source_conversion false
 
 scoreboard objectives add death deathCount
 scoreboard objectives setdisplay list death
