@@ -9,6 +9,7 @@
         "minecraft:goat",
         "minecraft:iron_golem",
         "minecraft:llama",
+        "minecraft:nautilus",
         "minecraft:panda",
         "minecraft:piglin",
         "minecraft:polar_bear",
@@ -16,6 +17,7 @@
         "minecraft:spider",
         "minecraft:trader_llama",
         "minecraft:wolf",
+        "minecraft:zombie_nautilus",
         "minecraft:zombified_piglin"
     ]
 }
