@@ -31,8 +31,6 @@ This mod is available in both English (US) and German (Germany).
 
 ## Requirements & Compatibility
 
-This mod is only available for Minecraft 1.21.10.
-
 Because of the many overwrites this mod uses, mod compatibility may be limited. From my testing, it seems to be compatible with most performance mods (incl. Sodium).
 
 This mod requires both the latest version of the [Fabric Loader](https://fabricmc.net/use/installer/) and the [Fabric API](https://modrinth.com/mod/fabric-api).
