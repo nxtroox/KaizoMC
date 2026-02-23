@@ -27,7 +27,7 @@ Making Minecraft insanely hard
 - Custom advancements
 - Every item has only half of its original durability
 
-This mod is available in both English (US) and German (Germany).
+This mod is available in both English and German.
 </details>
 
 ## Requirements & Compatibility
@@ -38,7 +38,8 @@ This mod requires both the latest version of the [Fabric Loader](https://fabricm
 
 ## Credits
 
-The custom advancements would not have been possible without the following Minecraft accounts:
+<details>
+<summary>The custom advancements would not have been possible without the following Minecraft accounts</summary>
 
 - MHF_Villager
 - MHF_EGuardian
@@ -46,6 +47,8 @@ The custom advancements would not have been possible without the following Minec
 - MHF_Golem
 - MHF_Warden
 - Nelson540
+
+</details>
 
 ## License
 
