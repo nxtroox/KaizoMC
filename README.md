@@ -12,6 +12,7 @@ Making Minecraft insanely hard
 <details>
 <summary>Click here for a list of all features (spoiler alert!)</summary>
 
+- Custom advancements
 - All mobs have double HP
 - Limited crafting and other difficulty-enhancing game rules are enabled
 - Creepers explode instantly
@@ -22,10 +23,10 @@ Making Minecraft insanely hard
 - Mobs don't take damage to water
 - Every mob is angered at you by default
 - Endermen pick up all blocks (except for air)
-- Lock difficulty on Hardcore
+- Difficulty is locked on Hardcore
 - Skulk Shriekers spawn a Warden instantly when activated
-- Custom advancements
 - Every item has only half of its original durability
+- Totems of Undying are unobtainable in Survival
 
 This mod is available in both English and German.
 </details>

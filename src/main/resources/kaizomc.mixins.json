@@ -3,14 +3,16 @@
   "package": "page.codeberg.niitroo.kaizomc.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "block.SculkShriekerWarningManagerMixin",
     "entity.BlazeEntityMixin",
     "entity.CreeperEntityMixin",
     "entity.EndermanEntityMixin",
     "entity.EyeOfEnderEntityMixin",
-    "item.ItemMixin",
     "entity.LivingEntityMixin",
     "entity.MobEntityMixin",
-    "block.SculkShriekerWarningManagerMixin"
+    "entity.LivingEntityMixin",
+    "entity.MobEntityMixin",
+    "item.ItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1
