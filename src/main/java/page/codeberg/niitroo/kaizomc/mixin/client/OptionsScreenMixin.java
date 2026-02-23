@@ -1,4 +1,4 @@
-package page.codeberg.niitroo.kaizomc.mixin;
+package page.codeberg.niitroo.kaizomc.mixin.client;
 
 import net.minecraft.client.gui.screen.option.OptionsScreen;
 import net.minecraft.client.gui.tooltip.Tooltip;

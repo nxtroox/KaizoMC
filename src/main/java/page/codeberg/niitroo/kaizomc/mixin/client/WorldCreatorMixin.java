@@ -1,4 +1,4 @@
-package page.codeberg.niitroo.kaizomc.mixin;
+package page.codeberg.niitroo.kaizomc.mixin.client;
 
 import net.minecraft.client.gui.screen.world.WorldCreator;
 import org.spongepowered.asm.mixin.Mixin;

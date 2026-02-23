@@ -1,4 +1,4 @@
-package page.codeberg.niitroo.kaizomc.mixin;
+package page.codeberg.niitroo.kaizomc.mixin.block;
 
 import net.minecraft.block.entity.SculkShriekerWarningManager;
 import org.spongepowered.asm.mixin.Mixin;

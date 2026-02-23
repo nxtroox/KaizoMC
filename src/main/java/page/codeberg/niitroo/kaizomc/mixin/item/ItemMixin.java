@@ -1,4 +1,4 @@
-package page.codeberg.niitroo.kaizomc.mixin;
+package page.codeberg.niitroo.kaizomc.mixin.item;
 
 import net.minecraft.item.Item;
 import org.spongepowered.asm.mixin.Mixin;

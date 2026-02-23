@@ -1,4 +1,4 @@
-package page.codeberg.niitroo.kaizomc.mixin;
+package page.codeberg.niitroo.kaizomc.mixin.entity;
 
 import net.minecraft.entity.EyeOfEnderEntity;
 import org.spongepowered.asm.mixin.Mixin;

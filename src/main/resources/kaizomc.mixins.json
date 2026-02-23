@@ -3,14 +3,14 @@
   "package": "page.codeberg.niitroo.kaizomc.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "BlazeEntityMixin",
-    "CreeperEntityMixin",
-    "EndermanEntityMixin",
-    "EyeOfEnderEntityMixin",
-    "ItemMixin",
-    "LivingEntityMixin",
-    "MobEntityMixin",
-    "SculkShriekerWarningManagerMixin"
+    "entity.BlazeEntityMixin",
+    "entity.CreeperEntityMixin",
+    "entity.EndermanEntityMixin",
+    "entity.EyeOfEnderEntityMixin",
+    "item.ItemMixin",
+    "entity.LivingEntityMixin",
+    "entity.MobEntityMixin",
+    "block.SculkShriekerWarningManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
@@ -19,7 +19,7 @@
     "requireAnnotations": true
   },
   "client": [
-    "OptionsScreenMixin",
-    "WorldCreatorMixin"
+    "client.OptionsScreenMixin",
+    "client.WorldCreatorMixin"
   ]
 }

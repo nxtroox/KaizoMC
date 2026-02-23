@@ -1,4 +1,4 @@
-package page.codeberg.niitroo.kaizomc.mixin;
+package page.codeberg.niitroo.kaizomc.mixin.entity;
 
 import net.minecraft.entity.mob.CreeperEntity;
 import net.minecraft.sound.SoundEvents;
