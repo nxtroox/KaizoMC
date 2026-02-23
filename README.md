@@ -25,6 +25,7 @@ Making Minecraft insanely hard
 - Lock difficulty on Hard
 - Skulk Shriekers spawn a Warden instantly when activated
 - Custom advancements
+- Every item has only half of its original durability
 
 This mod is available in both English (US) and German (Germany).
 </details>

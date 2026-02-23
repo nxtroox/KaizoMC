@@ -11,6 +11,6 @@ public class KaizoMC implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		LOGGER.info("Hello from KaizoMC!");
 	}
 }
