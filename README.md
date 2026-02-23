@@ -22,7 +22,7 @@ Making Minecraft insanely hard
 - Mobs don't take damage to water
 - Every mob is angered at you by default
 - Endermen pick up all blocks (except for air)
-- Lock difficulty on Hard
+- Lock difficulty on Hardcore
 - Skulk Shriekers spawn a Warden instantly when activated
 - Custom advancements
 - Every item has only half of its original durability
