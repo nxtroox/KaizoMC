@@ -1,34 +1,38 @@
 {
-	"schemaVersion": 1,
-	"id": "kaizomc",
-	"version": "${version}",
-	"name": "KaizoMC",
-	"description": "Making Minecraft insanely hard",
 	"authors": [
-		"Niitroo"
+		{
+			"homepage": "https://modrinth.com/user/nxtroox",
+			"name": "nxtroox"
+		}
 	],
 	"contact": {
-		"sources": "https://codeberg.org/Niitroo/kaizomc",
-        "issues": "https://codeberg.org/Niitroo/kaizomc/issues"
+		"homepage": "https://modrinth.com/mod/kaizomc",
+		"issues": "https://codeberg.org/Niitroo/kaizomc/issues",
+		"sources": "https://codeberg.org/Niitroo/kaizomc"
 	},
-	"license": "MIT",
-	"icon": "assets/kaizomc/icon.png",
-	"environment": "*",
+	"depends": {
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"java": ">=21",
+		"minecraft": "~1.21.11"
+	},
+	"description": "Making Minecraft insanely hard",
 	"entrypoints": {
-		"main": [
-			"page.codeberg.niitroo.kaizomc.KaizoMC"
-		],
 		"fabric-datagen": [
 			"page.codeberg.niitroo.kaizomc.KaizoMCDataGenerator"
+		],
+		"main": [
+			"page.codeberg.niitroo.kaizomc.KaizoMC"
 		]
 	},
+	"environment": "*",
+	"icon": "assets/kaizomc/icon.png",
+	"id": "kaizomc",
+	"license": "MIT",
 	"mixins": [
 		"kaizomc.mixins.json"
 	],
-	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+	"name": "KaizoMC",
+	"schemaVersion": 1,
+	"version": "${version}"
 }
