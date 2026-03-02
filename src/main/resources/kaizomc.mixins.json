@@ -1,27 +1,27 @@
 {
-  "required": true,
-  "package": "page.codeberg.niitroo.kaizomc.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "mixins": [
-    "block.SculkShriekerWarningManagerMixin",
-    "entity.BlazeEntityMixin",
-    "entity.CreeperEntityMixin",
-    "entity.EndermanEntityMixin",
-    "entity.EyeOfEnderEntityMixin",
-    "entity.LivingEntityMixin",
-    "entity.MobEntityMixin",
-    "entity.LivingEntityMixin",
-    "entity.MobEntityMixin",
-    "item.ItemMixin"
+  "client": [
+    "client.OptionsScreenMixin",
+    "client.WorldCreationUiStateMixin"
   ],
+  "compatibilityLevel": "JAVA_21",
   "injectors": {
     "defaultRequire": 1
   },
+  "mixins": [
+    "block.WardenSpawnTrackerMixin",
+    "entity.BlazeMixin",
+    "entity.CreeperMixin",
+    "entity.EnderManMixin",
+    "entity.EyeOfEnderMixin",
+    "entity.LivingEntityMixin",
+    "entity.MobMixin",
+    "entity.LivingEntityMixin",
+    "entity.MobMixin",
+    "item.ItemMixin"
+  ],
   "overwrites": {
     "requireAnnotations": true
   },
-  "client": [
-    "client.OptionsScreenMixin",
-    "client.WorldCreatorMixin"
-  ]
+  "package": "page.codeberg.niitroo.kaizomc.mixin",
+  "required": true
 }

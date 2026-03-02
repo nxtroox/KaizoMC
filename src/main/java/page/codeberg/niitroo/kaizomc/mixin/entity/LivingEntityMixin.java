@@ -1,13 +1,13 @@
 package page.codeberg.niitroo.kaizomc.mixin.entity;
 
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.attribute.EntityAttributeInstance;
-import net.minecraft.entity.attribute.EntityAttributeModifier;
-import net.minecraft.entity.attribute.EntityAttributes;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.util.Identifier;
-import net.minecraft.world.World;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.AttributeInstance;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.level.Level;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -19,24 +19,24 @@ public abstract class LivingEntityMixin {
     private static final String MODIFIER_NAME = "kaizomc:double_health";
 
     @Inject(method = "<init>", at = @At("TAIL"))
-    private void onConstructed(EntityType<LivingEntity> entityType, World world, CallbackInfo ci) {
+    private void onConstructed(EntityType<LivingEntity> entityType, Level world, CallbackInfo ci) {
         LivingEntity self = (LivingEntity)(Object)this;
 
-        if (self instanceof PlayerEntity) return;
+        if (self instanceof Player) return;
 
-        EntityAttributeInstance inst = self.getAttributeInstance(EntityAttributes.MAX_HEALTH);
+        AttributeInstance inst = self.getAttribute(Attributes.MAX_HEALTH);
         if (inst == null) return;
 
-        if (inst.getModifier(Identifier.of(MODIFIER_NAME)) != null) return;
+        if (inst.getModifier(Identifier.parse(MODIFIER_NAME)) != null) return;
 
         // Operation.ADD_MULTIPLIED_BASE with amount=1.0 => base * (1 + 1.0) = base * 2 => double max health
-        EntityAttributeModifier mod = new EntityAttributeModifier(
-                Identifier.of(MODIFIER_NAME),
+        AttributeModifier mod = new AttributeModifier(
+                Identifier.parse(MODIFIER_NAME),
                 1.0,
-                EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE
+                AttributeModifier.Operation.ADD_MULTIPLIED_BASE
         );
 
-        inst.addPersistentModifier(mod);
+        inst.addPermanentModifier(mod);
 
         try {
             self.setHealth((float)inst.getValue());

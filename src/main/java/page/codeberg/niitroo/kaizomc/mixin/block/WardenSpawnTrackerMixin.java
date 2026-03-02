@@ -1,12 +1,12 @@
 package page.codeberg.niitroo.kaizomc.mixin.block;
 
-import net.minecraft.block.entity.SculkShriekerWarningManager;
+import net.minecraft.world.entity.monster.warden.WardenSpawnTracker;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 
-@Mixin(SculkShriekerWarningManager.class)
-public class SculkShriekerWarningManagerMixin {
+@Mixin(WardenSpawnTracker.class)
+public class WardenSpawnTrackerMixin {
     @Shadow
     private int ticksSinceLastWarning;
 

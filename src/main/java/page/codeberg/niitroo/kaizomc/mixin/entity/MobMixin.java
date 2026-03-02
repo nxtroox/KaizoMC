@@ -1,17 +1,17 @@
 package page.codeberg.niitroo.kaizomc.mixin.entity;
 
-import net.minecraft.entity.mob.BlazeEntity;
+import net.minecraft.world.entity.Mob;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
-@Mixin(BlazeEntity.class)
-public class BlazeEntityMixin {
+@Mixin(Mob.class)
+public class MobMixin {
     /**
      * @author Niitroo
-     * @reason Make Blazes immune to water damage
+     * @reason Make mobs not burn during the daytime
      */
     @Overwrite
-    public boolean hurtByWater() {
+    public boolean isSunBurnTick() {
         return false;
     }
 }
