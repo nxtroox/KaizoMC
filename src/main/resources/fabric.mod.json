@@ -16,7 +16,7 @@
 		"java": ">=21",
 		"minecraft": "~1.21.11"
 	},
-	"description": "Making Minecraft insanely hard",
+	"description": "Making Minecraft extremely difficult while keeping the Vanilla feel",
 	"entrypoints": {
 		"fabric-datagen": [
 			"page.codeberg.niitroo.kaizomc.KaizoMCDataGenerator"
