@@ -5,6 +5,12 @@
 
 Making Minecraft insanely hard
 
+<a href="https://modrinth.com/mod/kaizomc">
+    <img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">
+</a>
+
+<img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
+
 </div>
 
 ## Features
@@ -31,9 +37,7 @@ Making Minecraft insanely hard
 This mod is available in both English and German.
 </details>
 
-## Requirements & Compatibility
-
-Because of the many overwrites this mod uses, mod compatibility may be limited. From my testing, it seems to be compatible with most performance mods (incl. Sodium).
+## Requirements
 
 This mod requires both the latest version of the [Fabric Loader](https://fabricmc.net/use/installer/) and the [Fabric API](https://modrinth.com/mod/fabric-api).
 
