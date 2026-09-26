@@ -16,7 +16,7 @@
         "craft_ender_eye": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "minecraft:ender_eye"
+                "recipes": "minecraft:ender_eye"
             }
         }
     }

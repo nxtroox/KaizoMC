@@ -1,4 +1,9 @@
 {
+	"schemaVersion": 1,
+	"id": "kaizomc",
+	"version": "${version}",
+	"name": "KaizoMC",
+	"description": "Making Minecraft extremely difficult while keeping the Vanilla feel",
 	"authors": [
 		{
 			"homepage": "https://modrinth.com/user/nxtroox",
@@ -7,32 +12,27 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/kaizomc",
-		"issues": "https://codeberg.org/Niitroo/kaizomc/issues",
-		"sources": "https://codeberg.org/Niitroo/kaizomc"
+		"issues": "https://github.com/nxtroox/KaizoMC/issues",
+		"sources": "https://github.com/nxtroox/KaizoMC"
 	},
-	"depends": {
-		"fabric-api": "*",
-		"fabricloader": ">=0.18.4",
-		"java": ">=21",
-		"minecraft": "~1.21.11"
-	},
-	"description": "Making Minecraft extremely difficult while keeping the Vanilla feel",
+	"license": "MIT",
+	"icon": "assets/kaizomc/icon.png",
+	"environment": "*",
 	"entrypoints": {
-		"fabric-datagen": [
-			"page.codeberg.niitroo.kaizomc.KaizoMCDataGenerator"
-		],
 		"main": [
-			"page.codeberg.niitroo.kaizomc.KaizoMC"
+			"io.github.nxtroox.kaizomc.KaizoMC"
+		],
+		"fabric-datagen": [
+			"io.github.nxtroox.kaizomc.KaizoMCDataGenerator"
 		]
 	},
-	"environment": "*",
-	"icon": "assets/kaizomc/icon.png",
-	"id": "kaizomc",
-	"license": "MIT",
 	"mixins": [
 		"kaizomc.mixins.json"
 	],
-	"name": "KaizoMC",
-	"schemaVersion": 1,
-	"version": "${version}"
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
 }
