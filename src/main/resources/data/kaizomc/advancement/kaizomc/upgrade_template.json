@@ -1,0 +1,26 @@
+{
+  "parent": "kaizomc:kaizomc/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.upgrade_template.title"
+    },
+    "description": {
+      "translate": "advancements.kaizomc.upgrade_template.description"
+    }
+  },
+  "criteria": {
+    "has_upgrade_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_upgrade_smithing_template"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "kaizomc:kaizomc/upgrade_template",
+  "display": {
+    "icon": {
+      "id": "minecraft:dirt"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.dirt.title"
+    },
+    "description": {
+      "translate": "advancements.kaizomc.dirt.description"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "craft_dirt": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:netherite_upgrade_smithing_template"
+      }
+    }
+  }
+}
