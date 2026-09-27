@@ -1,1 +1,0 @@
-execute as @a at @s run execute as @e[type=#kaizomc:neutral,distance=..32] at @s run function kaizomc:modify_neutral_data
