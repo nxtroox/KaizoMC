@@ -1,7 +1,11 @@
 {
-  "required": true,
-  "package": "io.github.nxtroox.kaizomc.mixin",
+  "client": [
+    "client.gui.screens.worldselection.WorldCreationUiStateMixin"
+  ],
   "compatibilityLevel": "JAVA_25",
+  "injectors": {
+    "defaultRequire": 1
+  },
   "mixins": [
     "world.entity.LivingEntityMixin",
     "world.entity.MobMixin",
@@ -12,13 +16,9 @@
     "world.entity.projectile.EyeOfEnderMixin",
     "world.item.ItemMixin"
   ],
-  "injectors": {
-    "defaultRequire": 1
-  },
   "overwrites": {
     "requireAnnotations": true
   },
-  "client": [
-    "client.gui.screens.worldselection.WorldCreationUiStateMixin"
-  ]
+  "package": "io.github.nxtroox.kaizomc.mixin",
+  "required": true
 }

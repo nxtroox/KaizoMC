@@ -1,35 +1,35 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:player_head",
-            "components": {
-                "minecraft:profile": {
-                    "name": "MHF_Villager"
-                }
+  "criteria": {
+    "find_village": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "#minecraft:village"
             }
-        },
-        "title": {
-            "translate": "advancements.kaizomc.find_village.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.find_village.description"
+          },
+          "type": "minecraft:entity_properties"
         }
-    },
-    "parent": "kaizomc:kaizomc/root",
-    "criteria": {
-        "find_village": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "minecraft:location": {
-                            "structures": "#minecraft:village"
-                        }
-                    }
-                }
-            }
-        }
+      },
+      "trigger": "minecraft:location"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.find_village.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:profile": {
+          "name": "MHF_Villager"
+        }
+      },
+      "id": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.find_village.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/root"
 }

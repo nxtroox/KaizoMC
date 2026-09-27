@@ -1,24 +1,24 @@
 {
-  "parent": "kaizomc:kaizomc/upgrade_template",
+  "criteria": {
+    "craft_dirt": {
+      "conditions": {
+        "recipes": "minecraft:netherite_upgrade_smithing_template"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
   "display": {
+    "description": {
+      "translate": "advancements.kaizomc.dirt.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
     "icon": {
       "id": "minecraft:dirt"
     },
     "title": {
       "translate": "advancements.kaizomc.dirt.title"
-    },
-    "description": {
-      "translate": "advancements.kaizomc.dirt.description"
-    },
-    "frame": "challenge",
-    "hidden": true
-  },
-  "criteria": {
-    "craft_dirt": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipes": "minecraft:netherite_upgrade_smithing_template"
-      }
     }
-  }
+  },
+  "parent": "kaizomc:kaizomc/upgrade_template"
 }

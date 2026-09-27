@@ -1,26 +1,26 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:echo_shard"
-        },
-        "title": {
-            "translate": "advancements.kaizomc.echo_shard.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.echo_shard.description"
-        }
-    },
-    "parent": "kaizomc:kaizomc/wind_charge",
-    "criteria": {
-        "has_echo_shard": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:echo_shard"
-                    }
-                ]
-            }
-        }
+  "criteria": {
+    "has_echo_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:echo_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.echo_shard.description"
+    },
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.echo_shard.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/wind_charge"
 }

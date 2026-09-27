@@ -1,26 +1,26 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:ender_pearl"
-        },
-        "title": {
-            "translate": "advancements.kaizomc.ender_pearl.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.ender_pearl.description"
-        }
-    },
-    "parent": "kaizomc:kaizomc/root",
-    "criteria": {
-        "has_ender_pearl": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:ender_pearl"
-                    }
-                ]
-            }
-        }
+  "criteria": {
+    "has_ender_pearl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_pearl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.ender_pearl.description"
+    },
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.ender_pearl.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/root"
 }

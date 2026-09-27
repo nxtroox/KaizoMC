@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#"
-  ],
   "key": {
     "#": "minecraft:netherite_upgrade_smithing_template"
   },
+  "pattern": [
+    "#"
+  ],
   "result": {
     "id": "minecraft:dirt"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:player_head",
-            "components": {
-                "minecraft:profile": {
-                    "name": "MHF_Enderman"
-                }
-            }
-        },
-        "title": {
-            "translate": "advancements.kaizomc.kill_enderman.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.kill_enderman.description"
+  "criteria": {
+    "kill_enderman": {
+      "conditions": {
+        "entity": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:enderman"
+          },
+          "type": "minecraft:entity_properties"
         }
-    },
-    "parent": "kaizomc:kaizomc/kill_creeper",
-    "criteria": {
-        "kill_enderman": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "minecraft:entity_type": "minecraft:enderman"
-                    }
-                }
-            }
-        }
+      },
+      "trigger": "minecraft:player_killed_entity"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.kill_enderman.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:profile": {
+          "name": "MHF_Enderman"
+        }
+      },
+      "id": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.kill_enderman.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/kill_creeper"
 }

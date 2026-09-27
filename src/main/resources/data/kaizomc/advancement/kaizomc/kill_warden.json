@@ -1,34 +1,34 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:player_head",
-            "components": {
-                "minecraft:profile": {
-                    "name": "MHF_Warden"
-                }
-            }
-        },
-        "title": {
-            "translate": "advancements.kaizomc.kill_warden.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.kill_warden.description"
-        },
-        "frame": "challenge"
-    },
-    "parent": "kaizomc:kaizomc/kill_ender_dragon",
-    "criteria": {
-        "kill_warden": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "minecraft:entity_type": "minecraft:warden"
-                    }
-                }
-            }
+  "criteria": {
+    "kill_warden": {
+      "conditions": {
+        "entity": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:warden"
+          },
+          "type": "minecraft:entity_properties"
         }
+      },
+      "trigger": "minecraft:player_killed_entity"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.kill_warden.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "minecraft:profile": {
+          "name": "MHF_Warden"
+        }
+      },
+      "id": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.kill_warden.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/kill_ender_dragon"
 }

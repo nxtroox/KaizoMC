@@ -1,26 +1,26 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:prismarine_shard"
-        },
-        "title": {
-            "translate": "advancements.kaizomc.prismarine_shard.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.prismarine_shard.description"
-        }
-    },
-    "parent": "kaizomc:kaizomc/blaze_powder",
-    "criteria": {
-        "has_prismarine_shard": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:prismarine_shard"
-                    }
-                ]
-            }
-        }
+  "criteria": {
+    "has_prismarine_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.prismarine_shard.description"
+    },
+    "icon": {
+      "id": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.prismarine_shard.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/blaze_powder"
 }

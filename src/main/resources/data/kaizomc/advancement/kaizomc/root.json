@@ -1,20 +1,20 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:netherite_sword"
-        },
-        "title": "KaizoMC",
-        "description": {
-            "translate": "advancements.kaizomc.root.description"
-        },
-        "background": "minecraft:block/pale_oak_log",
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false
-    },
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:tick"
-        }
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
     }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/pale_oak_log",
+    "description": {
+      "translate": "advancements.kaizomc.root.description"
+    },
+    "frame": "task",
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "show_toast": false,
+    "title": "KaizoMC"
+  }
 }

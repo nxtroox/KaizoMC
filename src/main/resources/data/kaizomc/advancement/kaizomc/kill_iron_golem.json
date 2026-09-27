@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:player_head",
-            "components": {
-                "minecraft:profile": {
-                    "name": "MHF_Golem"
-                }
-            }
-        },
-        "title": {
-            "translate": "advancements.kaizomc.kill_iron_golem.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.kill_iron_golem.description"
+  "criteria": {
+    "kill_iron_golem": {
+      "conditions": {
+        "entity": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:iron_golem"
+          },
+          "type": "minecraft:entity_properties"
         }
-    },
-    "parent": "kaizomc:kaizomc/find_village",
-    "criteria": {
-        "kill_iron_golem": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "minecraft:entity_type": "minecraft:iron_golem"
-                    }
-                }
-            }
-        }
+      },
+      "trigger": "minecraft:player_killed_entity"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.kill_iron_golem.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:profile": {
+          "name": "MHF_Golem"
+        }
+      },
+      "id": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.kill_iron_golem.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/find_village"
 }

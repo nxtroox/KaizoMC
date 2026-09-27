@@ -1,26 +1,26 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:blaze_powder"
-        },
-        "title": {
-            "translate": "advancements.kaizomc.blaze_powder.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.blaze_powder.description"
-        }
-    },
-    "parent": "kaizomc:kaizomc/ender_pearl",
-    "criteria": {
-        "has_blaze_powder": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:blaze_powder"
-                    }
-                ]
-            }
-        }
+  "criteria": {
+    "has_blaze_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blaze_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.blaze_powder.description"
+    },
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.blaze_powder.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/ender_pearl"
 }

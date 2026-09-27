@@ -1,31 +1,31 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:ender_eye"
-        },
-        "title": {
-            "translate": "advancements.kaizomc.find_stronghold.title"
-        },
-        "description": {
-            "translate": "advancements.kaizomc.find_stronghold.description"
-        },
-        "frame": "challenge"
-    },
-    "parent": "kaizomc:kaizomc/throw_ender_eye",
-    "criteria": {
-        "find_stronghold": {
-            "conditions": {
-                "player": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "minecraft:location": {
-                            "structures": "minecraft:stronghold"
-                        }
-                    }
-                }
-            },
-            "trigger": "minecraft:location"
+  "criteria": {
+    "find_stronghold": {
+      "conditions": {
+        "player": {
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "minecraft:stronghold"
+            }
+          },
+          "type": "minecraft:entity_properties"
         }
+      },
+      "trigger": "minecraft:location"
     }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.kaizomc.find_stronghold.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "advancements.kaizomc.find_stronghold.title"
+    }
+  },
+  "parent": "kaizomc:kaizomc/throw_ender_eye"
 }
