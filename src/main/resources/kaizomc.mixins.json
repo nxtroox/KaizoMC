@@ -1,14 +1,24 @@
 {
-	"required": true,
-	"package": "io.github.nxtroox.kaizomc.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": true,
+  "package": "io.github.nxtroox.kaizomc.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "world.entity.LivingEntityMixin",
+    "world.entity.MobMixin",
+    "world.entity.monster.BlazeMixin",
+    "world.entity.monster.CreeperMixin",
+    "world.entity.monster.EndermanMixin",
+    "world.entity.monster.warden.WardenSpawnTrackerMixin",
+    "world.entity.projectile.EyeOfEnderMixin",
+    "world.item.ItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "client.gui.screens.worldselection.WorldCreationUiStateMixin"
+  ]
 }
