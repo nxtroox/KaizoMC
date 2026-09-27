@@ -18,12 +18,11 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider registries) {
         var blockRegistryWrapper = registries.lookupOrThrow(Registries.BLOCK);
-        var builder = builder(BlockTags.ENDERMAN_HOLDABLE);
 
         blockRegistryWrapper.listElements().forEach(entry -> {
             Block block = entry.value();
             if (!(block == Blocks.AIR || block == Blocks.CAVE_AIR || block == Blocks.VOID_AIR)) {
-                builder.add(entry.key());
+                builder(BlockTags.ENDERMAN_HOLDABLE).add(entry.key());
             }
         });
     }
